@@ -4,5 +4,6 @@
     //Mi prueba de Ser "Hola Mundo"
     public class Prueba
     {
+        int a = 1;
     }
 }
