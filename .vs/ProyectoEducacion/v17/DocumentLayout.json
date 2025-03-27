@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nad__\\Desktop\\RProyectos\\Desktop\\WIndows Forms\\ProyectoEducacion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E8C883B-7542-4F9B-A301-895DE1062F66}|ProyectoEducacion\\ProyectoEducacion.csproj|c:\\users\\nad__\\desktop\\rproyectos\\desktop\\windows forms\\proyectoeducacion\\proyectoeducacion\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E8C883B-7542-4F9B-A301-895DE1062F66}|ProyectoEducacion\\ProyectoEducacion.csproj|solutionrelative:proyectoeducacion\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\nad__\\Desktop\\RProyectos\\Desktop\\WIndows Forms\\ProyectoEducacion\\ProyectoEducacion\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ProyectoEducacion\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\nad__\\Desktop\\RProyectos\\Desktop\\WIndows Forms\\ProyectoEducacion\\ProyectoEducacion\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ProyectoEducacion\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T22:23:48.699Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
