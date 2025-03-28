@@ -1,24 +1,26 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ProyectoEducacion.Modelos
 {
     public class Pago
     {
-
         [Key]
-        public int IdPago { get; set; }
+        public int idPage { get; set; }
 
-        [Required]
-        public float Monto { get; set; }
+        [Required(ErrorMessage = "El campo monto es obligatorio")]
+        public float monto { get; set; }
 
-        [Required]
-        [StringLength(50)]
-        public string Estado { get; set; }
+        [Required(ErrorMessage = "El campo estado es obligatorio")]
+        [StringLength(50, ErrorMessage = "El estado no debe exceder 50 caracteres")]
+        public string estado { get; set; }
 
-        [Required]
-        public DateTime Fecha { get; set; }
+        [Required(ErrorMessage = "El campo fecha es obligatorio")]
+        public DateTime fecha { get; set; }
 
-        [Required]
-        public int IdEstudiante { get; set; }
+        public int idEstudiante { get; set; }
+
+        [ForeignKey(nameof(idEstudiante))]
+        public virtual Estudiante? Estudiante { get; set; }
     }
 }
